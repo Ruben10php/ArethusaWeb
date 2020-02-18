@@ -16,43 +16,46 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <!-- Left Side Of Navbar -->
-        <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav ml-auto m-1">
             <li class="nav-item">
-                <a class="navbar_link nav-link" href="/">Home</a>
+                <a class="navbar_link navbar_link--tandem nav-link" href="/">Home</a>
             </li>
             <li class="nav-item">
-                <a class="navbar_link nav-link" href="/information">Informatie</a>
+                <a class="navbar_link navbar_link--tandem nav-link" href="/information">Informatie</a>
             </li>
             <li class="nav-item">
-                <a class="navbar_link nav-link" href="/crowdfund">Recreanten</a>
+                <a class="navbar_link navbar_link--tandem nav-link" href="/crowdfund">Recreanten</a>
             </li>
             <li class="nav-item">
-                <a class="navbar_link nav-link" href="/robot">Zwemles</a>
+                <a class="navbar_link navbar_link--tandem nav-link" href="/robot">Zwemles</a>
             </li>
             <li class="nav-item">
-                <a class="navbar_link nav-link" href="/project">Waterpolo</a>
+                <a class="navbar_link navbar_link--tandem nav-link" href="/project">Waterpolo</a>
             </li>
             <li class="nav-item">
-                <a class="navbar_link nav-link" href="/veiling">Wedstrijdzwemmen</a>
+                <a class="navbar_link navbar_link--tandem nav-link" href="/veiling">Wedstrijdzwemmen</a>
             </li>
             @guest
                 <li class="nav-item">
-                    <a class="navbar_link nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+                    <a class="navbar_link navbar_link--tandem nav-link"
+                       href="{{ route('login') }}">{{ __('Login') }}</a>
                 </li>
                 @if (Route::has('register'))
                     <li class="nav-item">
-                        <a class="navbar_link nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+                        <a class="navbar_link navbar_link--tandem nav-link"
+                           href="{{ route('register') }}">{{ __('Register') }}</a>
                     </li>
                 @endif
             @else
                 <li class="nav-item dropdown">
-                    <a id="navbarDropdown" class="navbar_link nav-link dropdown-toggle" href="#" role="button"
+                    <a id="navbarDropdown" class="navbar_link navbar_link--tandem nav-link dropdown-toggle" href="#"
+                       role="button"
                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                         {{ Auth::user()->name }} <span class="caret"></span>
                     </a>
 
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                        <a class="navbar_link dropdown-item" href="{{ route('logout') }}"
+                        <a class="navbar_link navbar_link--tandem dropdown-item" href="{{ route('logout') }}"
                            onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
                             {{ __('Logout') }}
@@ -66,7 +69,7 @@
                 </li>
             @endguest
             <li>
-                <form class="form-inline my-2 my-lg-0">
+                <form class="form-inline justify-content-center">
                     <input class="form-control mr-sm-2" type="search" placeholder="Search"
                            aria-label="Search">
                     <button class="btn btn-outline-light my-2 my-sm-0" type="submit"><i
