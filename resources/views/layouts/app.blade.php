@@ -17,7 +17,7 @@
     @include('partials.layouts.footer')
 </footer>
 <script src="{{ asset('js/app.js') }}"></script>
-
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/nl_NL/sdk.js#xfbml=1&version=v6.0"></script>
 </body>
 
 </html>

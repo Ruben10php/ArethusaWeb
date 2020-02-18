@@ -5,6 +5,7 @@
     </div>
 </div>
 
+
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
     <a class="navbar-brand" href="/">
         Arethusa</a>
@@ -24,16 +25,16 @@
                 <a class="navbar_link navbar_link--tandem nav-link" href="/information">Informatie</a>
             </li>
             <li class="nav-item">
-                <a class="navbar_link navbar_link--tandem nav-link" href="/crowdfund">Recreanten</a>
+                <a class="navbar_link navbar_link--tandem nav-link" href="/recreanten">Recreanten</a>
             </li>
             <li class="nav-item">
-                <a class="navbar_link navbar_link--tandem nav-link" href="/robot">Zwemles</a>
+                <a class="navbar_link navbar_link--tandem nav-link" href="/zwemles">Zwemles</a>
             </li>
             <li class="nav-item">
-                <a class="navbar_link navbar_link--tandem nav-link" href="/project">Waterpolo</a>
+                <a class="navbar_link navbar_link--tandem nav-link" href="/waterpolo">Waterpolo</a>
             </li>
             <li class="nav-item">
-                <a class="navbar_link navbar_link--tandem nav-link" href="/veiling">Wedstrijdzwemmen</a>
+                <a class="navbar_link navbar_link--tandem nav-link" href="/wedstrijdzwemmen">Wedstrijdzwemmen</a>
             </li>
             @guest
                 <li class="nav-item">

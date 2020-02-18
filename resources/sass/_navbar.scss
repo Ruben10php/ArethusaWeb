@@ -33,7 +33,7 @@ $outline-active-scale: 1.05;
 }
 
 .paralax_text {
-    position: relative;
+    position: relative !important;
     padding: 15% 0 10%;
     max-width: 640px;
     margin-left: auto;
@@ -42,6 +42,7 @@ $outline-active-scale: 1.05;
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
     font-family: "Montserrat", sans-serif;
 }
+
 
 .paralax_wrap {
     position: relative;
@@ -55,6 +56,8 @@ $outline-active-scale: 1.05;
     margin-right: auto;
     padding: 40px;
 }
+
+
 
 .navbar_link {
     color: white !important;
