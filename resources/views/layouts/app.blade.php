@@ -8,9 +8,11 @@
 <body>
 @include('partials.layouts.header')
 @include('layouts.messages')
-
-@yield('content')
-
+<div class="paralax_wrap">
+    <div class="paralax_section">
+        @yield('content')
+    </div>
+</div>
 <footer>
     @include('partials.layouts.footer')
 </footer>
