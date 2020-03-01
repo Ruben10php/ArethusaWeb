@@ -28,7 +28,7 @@
     {{-- Icons : https://fontawesome.com/icons?d=gallery --}}
     @component('partials/cms/navblock', ['header' => 'Pages'])
 
-        @include('partials.cms.navitem', ['subject' => 'pages.homepage', 'icon' => 'fa-home', 'link' => '/'])
+        @include('partials.cms.navitem', ['subject' => 'pages.waterpoloHome', 'icon' => 'fa-home', 'link' => '/'])
 
     @endcomponent
 
