@@ -49507,6 +49507,8 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 __webpack_require__(/*! ./header */ "./resources/js/header.js");
 
+__webpack_require__(/*! ./homepage */ "./resources/js/homepage.js");
+
 window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
 /**
  * The following block of code may be used to automatically register your
@@ -49671,6 +49673,17 @@ $(window).scroll(function () {
 $(window).resize(function () {
   parallax_height();
 });
+
+/***/ }),
+
+/***/ "./resources/js/homepage.js":
+/*!**********************************!*\
+  !*** ./resources/js/homepage.js ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
 
 /***/ }),
 

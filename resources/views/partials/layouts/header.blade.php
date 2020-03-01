@@ -1,12 +1,4 @@
-<div class="paralax_banner">
-    <div class="paralax_text text-center">
-        <h1>Waterpolo</h1>
-        <h2>Waterpolo is teamgeest, spelinzicht, speltechniek, wedstrijdtactiek en discipline </h2>
-    </div>
-</div>
-
-
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm navMenu">
     <a class="navbar-brand" href="/">
         Arethusa</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -27,11 +19,23 @@
             <li class="nav-item">
                 <a class="navbar_link navbar_link--tandem nav-link" href="/recreanten">Recreanten</a>
             </li>
-            <li class="nav-item">
-                <a class="navbar_link navbar_link--tandem nav-link" href="/zwemles">Zwemles</a>
-            </li>
-            <li class="nav-item">
-                <a class="navbar_link navbar_link--tandem nav-link" href="/waterpolo">Waterpolo</a>
+            <li class="nav-item dropdown">
+                <a class="navbar_link navbar_link--tandem nav-link" href="/waterpolo"
+                   id="navbarDropdown" role="button"
+                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Waterpolo
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="/waterpolo">Home</a>
+                    <a class="dropdown-item" href="#">Contact</a>
+                    <a class="dropdown-item" href="#">Lid worden</a>
+                    <a class="dropdown-item" href="#">kleding</a>
+                    <a class="dropdown-item" href="#">Spelregels</a>
+                    <a class="dropdown-item" href="#">Trainingsrooster</a>
+                    <a class="dropdown-item" href="#">Uitslagen</a>
+                    <a class="dropdown-item" href="#">Wedstrijden & Officials</a>
+
+                </div>
             </li>
             <li class="nav-item">
                 <a class="navbar_link navbar_link--tandem nav-link" href="/wedstrijdzwemmen">Wedstrijdzwemmen</a>

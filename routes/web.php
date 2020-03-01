@@ -17,3 +17,5 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index');
 Route::get('/privacy', 'PrivacyController@index');
+Route::get('/waterpolo', 'WaterpoloController@index');
+
